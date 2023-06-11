@@ -1,0 +1,7 @@
+pure css, lo podemos utilizar para trabajr sobre estilos predefinidos
+
+
+coolors ---- pagina oara ver paleta de coloros y poderlos utilizar
+
+ 
+google fonts ----> estilos de fuentes
