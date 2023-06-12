@@ -1,0 +1,12 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.galeria{
+    display: flexbox;
+    position: fixed;
+}
+.img{
+    width: 300px;
+    flex-wrap: wrap;
+}
