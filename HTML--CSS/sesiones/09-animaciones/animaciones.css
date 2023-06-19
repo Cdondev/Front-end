@@ -1,0 +1,76 @@
+.padre{
+    background-color: brown;
+    width: 400px;
+    height: 400px;
+    display: flex;
+}
+.hijo{
+    background-color: beige;
+    width: 10%;
+    height: 10%;
+    border-radius: 70px;
+    /* transition:ease-in 1s; */
+    /* transition: transform 1s cubic-bezier(0.81, 0.29, 0.46, 1.42); */
+    animation: traslation 1s forwards infinite;
+    
+}
+.padre:hover .hijo{
+    /* transform: translate(100%);
+    background-color: aquamarine; */
+    animation-play-state: paused;
+    
+
+}
+@keyframes traslation{
+    0% {
+        background-color: aqua;
+        transform: translateX(0%) translateY(0%);
+    }
+    25%{
+        transform: translateX(100%) translateY(0%);
+    }
+    
+    50%{
+        transform: translateX(100%) translateY(100%);
+    }
+    75%{
+        transform: translateX(0%) translateY(100%);
+    }
+    100%{
+        background-color: blueviolet;
+        transform:translateY(0%) translateY(0%);
+    }
+
+}
+.hijo2{
+    background-color: rgb(22, 19, 19);
+    width: 10%;
+    height: 10%;
+    border-radius: 50px;
+    animation: tralastion2 1s infinite; ;
+}
+.padre:hover .hijo2{
+    /* transform: translate(100%);
+    background-color: aquamarine; */
+    animation-play-state: paused;
+} 
+@keyframes traslation2{
+    0% {
+        background-color: rgb(255, 255, 0);
+        transform: translateY(-0%) translateX(-0%);
+    }
+    25%{
+        transform: translateY(-100%) translateX(-0%);
+    }
+    
+    50%{
+        transform: translateY(-100%) translateX(-100%);
+    }
+    75%{
+        transform: translateY(-0%) translateX(-100%);
+    }
+    100%{
+        background-color: rgb(119, 226, 43);
+        transform:translateY(-0%) translateY(-0%);
+    }
+}
