@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.btn-modern{
+    background-color: aqua;
+    width: 50px;
+    height: 15px;
+    border: 0;
+}
+.btn-modern:hover{
+    transform: translateY(-5px);
+    background-color: blue;
+    transition: background-color 0.4s ;
+ 
+}
+.btn-modern:hover::before{
+    background-color: transparent;
+}
