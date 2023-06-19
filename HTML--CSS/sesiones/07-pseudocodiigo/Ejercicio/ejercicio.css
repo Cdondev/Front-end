@@ -7,10 +7,35 @@ body {
 .button:hover {
     background-color: green;
     color: white;
+    border-radius: 15px;
 }
 .button::before {
-    content: "Pasa por encima"
+    content: "Pasa por encima";
+
 }
 .button:hover::before {
     content: "¡Hecho!"
 }
+.div{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+.forumalrio::before{
+    content: "escribe aqui";
+}
+.formulario:hover::before{
+    content: "Texto";
+}
+.enviar::before{
+    content: "pasa aqui";
+    background-color: antiquewhite;
+}
+.enviar:hover::before{
+    content: "Enviar";
+}
+
+
+/* agegar elementos o texto con css */
