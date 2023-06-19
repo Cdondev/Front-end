@@ -1,0 +1,5 @@
+dentro del codigo css podemos anidar o llmar a varias de las clases o elemento que se encuentran dentro de el 
+es dedir 
+ej: 
+body .mian .clase .clase p 
+dentro de este ejemplo tenemos un body, ell cual tiene una clase main, que a su vez tiene un elemnto parrafo

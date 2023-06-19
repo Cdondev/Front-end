@@ -1,0 +1,14 @@
+----> w3 school psudoclases
+
+
+////------////
+
+psuedo elementos 
+
+::before{} ----> antes --- agrega elemntos al principio de la etiqueta que le indiquemos 
+::after{} ----> depsues ---> agregua contenido al final de la etiqueta
+
+
+::first-latter{}---> afecta solo a la primera letra 
+
+w3 school psuedoelemntos 

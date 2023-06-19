@@ -1,0 +1,7 @@
+.div{
+    width: 500px;
+    background-color: antiquewhite;
+}
+.div p:hover{
+    color: white;
+}
