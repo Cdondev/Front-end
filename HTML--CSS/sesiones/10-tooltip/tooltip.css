@@ -24,15 +24,21 @@ body{
 /* } */
 .tooltip{
     position: absolute;
-    opacity: 0;
+    /* opacity: 0; */
     top: -50px;
     left: -100%;
-    color: rgb(28, 22, 22);
-    background-color: gray;
+    color: rgb(11, 11, 11);
+    background-color: rgb(150, 28, 28);
     padding: 5px 10px;
     border-radius: 10px;
-    transition: opacity  150ms;
+    /* transition: opacity  150ms; */
 }
 .btn-tooltip:hover .tooltip{
     opacity: 1;
 }
+.btn-tooltip span{
+    background-color: aqua;
+}
+/* .btn-tooltip:hover::before{
+    content:"realiza tu busqueda";
+} */

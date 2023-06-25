@@ -1,0 +1,15 @@
+.contenedor{
+    display: grid;
+    gap: 0.5rem;
+    /* grid-template-columns: auto; */
+    /* grid-template-columns: repeat(3 auto); */
+    /* grid-template-columns: 20px 2rem 20vw; */
+    /* grid-template-columns: 1fr 1fr 2fr; */
+    /* grid-template-rows: ; */
+}
+.item{
+    background-color: aqua;
+    padding: 0.25rem;
+    font-size: 2rem;
+    border: 1px solid blue;
+}

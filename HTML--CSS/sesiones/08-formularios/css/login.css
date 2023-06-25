@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
     gap: 30px;
-    background-color: #161717;
+    background-color: #cadede;
 }
 .container h3{
     color:white
@@ -116,7 +116,7 @@ label span{
 }
 .section-input label input{
     width: 80%;
-    background-color: #212121;
+    background-color: #443d3d32;
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
@@ -125,7 +125,7 @@ label span{
 }
 label input{
     width: 90%;
-    background-color: #212121;
+    background-color: #2f2a2a;
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
