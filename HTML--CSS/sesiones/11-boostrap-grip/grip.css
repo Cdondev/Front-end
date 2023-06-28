@@ -1,0 +1,30 @@
+.row div{
+    margin: 0.25rem;
+}
+.col{
+    background-color: aquamarine;
+}
+
+.col-xs{
+    background-color:blueviolet;
+}
+
+.col-sm{
+    background-color: gray;
+}
+
+.col-md{
+    background-color: green;
+}
+
+.col-lg{
+    background-color: maroon;
+}
+
+.col-xl{
+    background-color: blue;
+}
+
+.col-xll{
+    background-color: red;
+}
